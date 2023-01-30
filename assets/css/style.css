@@ -7,6 +7,7 @@ box-sizing: border-box;
 :root{
 font-size: 62.5%;
 --text-color:#ffffff;
+--text-color-red:#da0917;
 }
 body{
 width: 100%;
@@ -19,7 +20,6 @@ font-family: sans-serif;
 }
 .container{
 width: 80%;
-height: 100%;
 margin: 0  auto;
 background-color:#ece6e8;
 }
@@ -36,7 +36,7 @@ justify-content: space-around;
 .logo{
 font-family: 'Dancing Script', cursive;
 font-size: 6rem;
-color: #da0917;
+color:var(--text-color-red);
 }
 #menu{
 display: flex;
@@ -81,7 +81,7 @@ margin-bottom: 3rem;
 }
 
 .content-background a{
-color:#da0917;
+color:var(--text-color-red);
 text-decoration: none;
 background-color: var(--text-color);
 text-transform: uppercase;
@@ -91,4 +91,53 @@ display:inline-block;
 margin-top: 2rem;
 }
 
-
+/* About valentine's day*/
+#about{
+width:75%;
+background-color: #ffffff;
+margin: 10rem auto;
+height: 65rem;
+}
+#about h2{
+text-align: center;
+padding:6rem 0 2rem 0;
+margin-bottom: 2rem;
+}
+#about a{
+text-decoration: none;
+display: block;
+background-color: var(--text-color-red);
+color: var(--text-color);
+padding: 1.5rem 3rem;
+text-transform: uppercase;
+text-align: center;
+width: fit-content;
+font-weight: bold;
+margin: 4rem auto;
+}
+#about .about-paragraph{
+text-align: center;
+margin:0 auto 3rem auto;
+width: 60rem;
+font-size: 1.8rem;
+line-height: 150%;
+color: var(--text-color-red);
+font-style: italic;
+}
+.about-content{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+  gap:2rem;
+}
+.about-content-side{
+  width: 35%;
+  padding: 2rem;
+}
+.about-content-side p{
+font-size: 1.8rem;
+line-height: 150%;
+color:#484646;
+text-align: justify;
+}
