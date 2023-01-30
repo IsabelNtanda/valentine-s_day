@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+font-size: 62.5%;
+--text-color:#ffffff;
+}
+body{
+width: 100%;
+height: 100%;
+
+}
+body{
+font-size: 1.6rem;
+font-family: sans-serif;
+}
+.container{
+width: 80%;
+height: 100%;
+margin: 0  auto;
+}
+header{
+width: 100%;
+padding: 1rem;
+}
+nav {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.logo{
+font-family: 'Dancing Script', cursive;
+font-size: 6rem;
+color: #da0917;
+}
+#menu{
+display: flex;
+align-items: center;
+justify-content: center;
+list-style: none;
+}
+#menu li{
+padding: 2rem;
+}
+#menu li a{
+text-decoration: none;
+padding: 1rem;
+font-size: 2rem;
+color:#484646;
+font-family:sans-serif;
+}
+
+#background_section{
+background-image: url('..//images/background.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 80vh;
+}
+.content-background{
+color: var(--text-color);
+padding: 7rem;
+display: block;
+}
+.content-background h1{
+font-size: 5rem;
+width: 45rem;
+margin-bottom:4rem;
+color: var(--text-color);
+}
+.content-background p{
+width:50rem;
+font-size: 2rem;
+line-height: 150%;
+margin-bottom: 3rem;
+}
+
+.content-background a{
+color:#da0917;
+text-decoration: none;
+background-color: var(--text-color);
+text-transform: uppercase;
+padding: 1.5rem 2rem;
+font-weight: bold;
+display:inline-block;
+margin-top: 2rem;
+}
+
+
