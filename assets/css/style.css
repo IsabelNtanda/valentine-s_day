@@ -21,10 +21,12 @@ font-family: sans-serif;
 width: 80%;
 height: 100%;
 margin: 0  auto;
+background-color:#ece6e8;
 }
 header{
 width: 100%;
 padding: 1rem;
+background-color: white;
 }
 nav {
 display: flex;
@@ -54,7 +56,7 @@ font-family:sans-serif;
 }
 
 #background_section{
-background-image: url('..//images/background.png');
+background-image: url('..//images/background01.jpg');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
