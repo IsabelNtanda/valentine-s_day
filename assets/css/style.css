@@ -31,10 +31,9 @@ background-color: var(--text-color-red);
 color: var(--text-color);
 padding: 1.5rem 3rem;
 text-transform: uppercase;
-text-align: center;
 width: fit-content;
 font-weight: bold;
-margin: 4rem auto;
+
 }
 
 header{
@@ -111,7 +110,11 @@ margin-top: 2rem;
 width:75%;
 background-color: #ffffff;
 margin: 6rem auto;
-height: 60rem;
+height:60rem;
+}
+#about a{
+text-align: center;
+margin: 3rem auto;
 }
 #about h2{
 text-align: center;
@@ -122,7 +125,7 @@ margin-bottom: 2rem;
 text-align: center;
 margin:0 auto 3rem auto;
 width: 60rem;
-font-size: 1.8rem;
+font-size: 1.6rem;
 line-height: 150%;
 color: var(--text-color-red);
 font-style: italic;
@@ -132,14 +135,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 3rem;
-  gap:2rem;
+ gap:2rem;
 }
 .about-content-side{
   width: 35%;
   padding: 2rem;
 }
 .about-content-side p{
-font-size: 1.5rem;
+font-size: 1.6rem;
 line-height: 150%;
 color:#484646;
 text-align: justify;
@@ -154,57 +157,53 @@ height: 50vh;
 }
 
 /* Gift  */
-#gift{
+#gifts{
 width:75%;
 background-color: #ffffff;
 margin: 6rem auto;
-height: 65rem;
+height: 60rem;
+
+}
+.gift{
 display: flex;
 gap: 2%;
+padding: 5rem 4rem;
+margin-top: 5rem;
 }
-#gift .content-left{
+.gift-content-left{
 width: 49%;
-border: 1px solid red;
-padding: 4rem;
 }
-#gift .subtile-content-left{
-font-size: 5rem;
-font-family: Georgia, 'Times New Roman', Times, serif;
-width: 28rem;
-margin: 3rem 0 3rem 0;
-line-height: 130%;
-word-spacing: 10;
-border: 1px solid green;
-}
-#gift .paragraph-content-left{
-width: 28rem;
-border: 1px solid green;
-padding: 2rem;
-}
-.price{
-color: var(--text-color-red);
-border:1px solid green;
-font-size: 5rem;
-font-weight: bold;
-width: 28rem;
+.gift-content-left a{
+display: block;
 margin-top: 3rem;
+}
+.gift-content-right{
+  width: 49%;
+}
+.gift-content-right img{
+width: 100%;
+}
+.subtile-content-left{
+font-family: 'Times New Roman', Times, serif;
+font-size: 4.5rem;
+margin-bottom: 2rem;
+}
+.paragraph-content-left{
+width: 300px;
+line-height: 150%;
+text-align: justify;
+margin-bottom: 3rem;
+letter-spacing: .2px ;
+color:#484646;;
+}
+
+.price{
+font-size: 4rem;
+color: var(--text-color-red);
+font-weight: bold;
 }
 .price span{
-font-size: 3.5rem;
-}
-.content-left a{
-  display: block;
-margin-top: 3rem;
-}
-#gift .content-right{
-width: 49%;
-border: 1px solid red;
-}
-#gift .content-right img{
-width: 350px;
-border: 1px solid green;
-margin-block: 6rem;
-margin-inline: 6rem;
+font-size: 3rem;
 }
 
 
