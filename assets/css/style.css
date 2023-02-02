@@ -41,6 +41,7 @@ header{
 width: 100%;
 padding: 1rem;
 background-color: white;
+height: 80px;
 }
 nav {
 display: flex;
@@ -49,7 +50,7 @@ justify-content: space-around;
 }
 .logo{
 font-family: 'Dancing Script', cursive;
-font-size: 6rem;
+font-size: 4.5rem;
 color:var(--text-color-red);
 }
 #menu{
@@ -64,7 +65,7 @@ padding: 2rem;
 #menu li a{
 text-decoration: none;
 padding: 1rem;
-font-size: 2rem;
+font-size:1.6rem;
 color:#484646;
 font-family:sans-serif;
 }
@@ -82,14 +83,14 @@ padding: 7rem;
 display: block;
 }
 .content-background h1{
-font-size: 5rem;
+font-size: 4.5rem;
 width: 45rem;
 margin-bottom:4rem;
 color: var(--text-color);
 }
 .content-background p{
 width:50rem;
-font-size: 2rem;
+font-size: 1.6rem;
 line-height: 150%;
 margin-bottom: 3rem;
 }
@@ -110,7 +111,7 @@ margin-top: 2rem;
 width:75%;
 background-color: #ffffff;
 margin: 6rem auto;
-height: 65rem;
+height: 60rem;
 }
 #about h2{
 text-align: center;
@@ -130,7 +131,7 @@ font-style: italic;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 5rem;
+margin-top: 3rem;
   gap:2rem;
 }
 .about-content-side{
@@ -138,7 +139,7 @@ margin-top: 5rem;
   padding: 2rem;
 }
 .about-content-side p{
-font-size: 1.8rem;
+font-size: 1.5rem;
 line-height: 150%;
 color:#484646;
 text-align: justify;
