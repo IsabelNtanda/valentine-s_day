@@ -17,7 +17,7 @@ height: 100%;
 body{
 font-size: 1.6rem;
 font-family: sans-serif;
-background-color: black;
+
 }
 .container{
 width: 80%;
@@ -78,22 +78,22 @@ height: 80vh;
 }
 .content-background{
 color: var(--text-color);
-padding: 7rem;
-display: block;
 width: 50rem;
-display: block; 
+height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 7rem;
 }
 .content-background h1{
 font-size: 4.5rem;
-margin-bottom:3rem;
 color: var(--text-color);
 }
 .content-background p{
 font-size: 1.6rem;
 line-height: 150%;
-margin-bottom: 3rem;
+margin-block: 3rem;
 }
-
 .content-background a{
 color:var(--text-color-red);
 text-decoration: none;
@@ -101,14 +101,14 @@ background-color: var(--text-color);
 text-transform: uppercase;
 padding: 1.5rem 2rem;
 font-weight: bold;
-display:inline-block;
-margin-top: 3rem;
-border: 1px solid yellow;
+display: inline-block;
+width: fit-content;
 }
 
 /* About valentine's day*/
 #about{
 width:75%;
+height: 65rem;
 background-color: #ffffff;
 margin: 6rem auto;
 
@@ -119,7 +119,7 @@ margin: auto;
 }
 #about a{
 text-align: center;
-margin: 3rem auto;
+margin: 4rem auto;
 }
 #about h2{
 text-align: center;
@@ -197,7 +197,7 @@ line-height: 150%;
 text-align: justify;
 margin-bottom: 3rem;
 letter-spacing: .2px ;
-color:#484646;;
+color:#484646;
 }
 
 .price{
@@ -208,5 +208,45 @@ font-weight: bold;
 .price span{
 font-size: 3rem;
 }
+
+/*Cards*/
+#three-columns{
+width: 100%;
+background-color:#ece6e8;
+
+
+}
+.three-columns-content{
+text-align: center;
+display: block;
+padding-block:2rem ;
+}
+.three-columns-content h2{
+font-size: 4rem;
+}
+.three-columns-content p{
+padding: 1rem 0 1rem 0 ;
+color:#484646;
+}
+
+.cards{
+ width: 75%;
+ margin: 0 auto;
+ padding: 1rem;
+ margin-top: 1.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1.6rem;
+}
+.card .card-content{
+padding: 2rem;
+margin-top: 2rem;
+text-align: center;
+}
+.card-content p{
+margin-block:1rem ;
+}
+
 
 
