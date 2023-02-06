@@ -223,6 +223,7 @@ padding-block:2rem ;
 }
 .three-columns-content h2{
 font-size: 4rem;
+font-family: 'Times New Roman', Times, serif;
 }
 .three-columns-content p{
 padding: 1rem 0 1rem 0 ;
@@ -244,8 +245,15 @@ padding: 2rem;
 margin-top: 2rem;
 text-align: center;
 }
+.card-content h2{
+font-size: 2rem;
+
+}
 .card-content p{
 margin-block:1rem ;
+line-height: 150%;
+color:#484646;
+
 }
 
 
